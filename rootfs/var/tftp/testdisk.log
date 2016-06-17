@@ -1,0 +1,276 @@
+
+
+Wed May 25 21:35:25 2016
+Command line: TestDisk
+
+TestDisk 6.14, Data Recovery Utility, July 2013
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 3.19.0-32-generic (#37~14.04.1-Ubuntu SMP Thu Oct 22 09:41:40 UTC 2015) x86_64
+Compiler: GCC 4.8
+Compilation date: 2013-10-29T01:29:29
+ext2fs lib: 1.42.9, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       500116079 sectors
+/dev/sda: user_max   500116079 sectors
+/dev/sda: native_max 500118192 sectors
+/dev/sda: dco        500118192 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       1953525168 sectors
+/dev/sdb: user_max   1953525168 sectors
+/dev/sdb: native_max 1953525168 sectors
+/dev/sdb: dco        1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 1 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 256 GB / 238 GiB - CHS 31130 255 63, sector size=512 - Crucial_CT256MX100SSD1, S/N:14200C2473F2, FW:MU01
+Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - TOSHIBA MQ01ABD100, S/N:74FOTYDZT, FW:AX0P2D
+Disk /dev/mmcblk0 - 63 GB / 59 GiB - CHS 1948992 4 16, sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/mmcblk0 - 63 GB / 59 GiB
+Partition table type: Intel
+
+Analyse Disk /dev/mmcblk0 - 63 GB / 59 GiB - CHS 1948992 4 16
+Geometry from i386 MBR: head=255 sector=63
+BAD_RS LBA=32768 296
+get_geometry_from_list_part_aux head=4 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=128 nbr=2
+Current partition structure:
+ 1 P HPFS - NTFS            512   0  1 1948991   3 16  124702720
+
+Warning: Bad ending sector (CHS and LBA don't match)
+No partition is bootable
+
+search_part()
+Disk /dev/mmcblk0 - 63 GB / 59 GiB - CHS 1948992 4 16
+     HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+get_geometry_from_list_part_aux head=4 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=128 nbr=2
+Warning: the current number of heads per cylinder is 4 but the correct value may be 128.
+
+Results
+   * HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+
+interface_write()
+ 1 * HPFS - NTFS            512   0  1 1948991   3 16  124702720
+simulate write!
+
+write_mbr_i386: starting...
+write_all_log_i386: starting...
+No extended partition
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+BAD_RS LBA=32768 296
+get_geometry_from_list_part_aux head=4 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=128 nbr=2
+ 1 P HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+New options :
+ Dump : No
+ Align partition: Yes
+ Expert mode : No
+
+Analyse Disk /dev/mmcblk0 - 63 GB / 59 GiB - CHS 1948992 4 16
+Geometry from i386 MBR: head=255 sector=63
+BAD_RS LBA=32768 296
+get_geometry_from_list_part_aux head=4 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=128 nbr=2
+Current partition structure:
+ 1 P HPFS - NTFS            512   0  1 1948991   3 16  124702720
+
+Warning: Bad ending sector (CHS and LBA don't match)
+No partition is bootable
+NTFS signature is missing.
+NTFS signature is missing.
+
+search_part()
+Disk /dev/mmcblk0 - 63 GB / 59 GiB - CHS 1948992 4 16
+     HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+get_geometry_from_list_part_aux head=4 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=128 nbr=2
+Warning: the current number of heads per cylinder is 4 but the correct value may be 128.
+
+Results
+   * HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+
+
+dir_partition inode=0
+   * HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+Directory /
+       5 -rwxr-xr-x     0      0 1073741824 14-Jan-2016 17:25 1.fff
+    8197 -rwxr-xr-x     0      0 270660608 14-Jan-2016 17:27 2.fff
+   10262 dr-xr-xr-x     0      0    131072  6-Feb-2016 16:44 AVF_INFO
+   10814 drwxr-xr-x     0      0    131072  6-Feb-2016 16:44 PRIVATE
+   10822 drwxr-xr-x     0      0    131072  6-Feb-2016 16:45 DCIM
+   10824 drwxr-xr-x     0      0    131072  6-Feb-2016 16:45 MP_ROOT
+  278834 drwxr-xr-x     0      0    131072 27-Mar-2016 17:46 System Volume Information
+  278836 drwxr-xr-x     0      0    131072 27-Mar-2016 19:14 wycieczka 1
+
+dir_partition inode=10822
+   * HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+Directory /DCIM
+   10823 drwxr-xr-x     0      0    393216  1-May-2016 12:29 100MSDCF
+  441360 drwxr-xr-x     0      0    131072 23-May-2016 13:41 101MSDCF
+
+dir_partition inode=441360
+   * HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+Directory /DCIM/101MSDCF
+  441362 -rwxr-xr-x     0      0   7405568 23-May-2016 13:41 DSC00001.JPG
+  441419 -rwxr-xr-x     0      0   8290304 23-May-2016 13:42 DSC00002.JPG
+  441483 -rwxr-xr-x     0      0   7438336 23-May-2016 13:42 DSC00003.JPG
+  441540 -rwxr-xr-x     0      0   8388608 23-May-2016 13:42 DSC00004.JPG
+  441604 -rwxr-xr-x     0      0   7208960 23-May-2016 13:47 DSC00005.JPG
+  441659 -rwxr-xr-x     0      0   6029312 23-May-2016 13:48 DSC00006.JPG
+  441705 -rwxr-xr-x     0      0   5734400 23-May-2016 13:48 DSC00007.JPG
+  441749 -rwxr-xr-x     0      0   6062080 23-May-2016 13:48 DSC00008.JPG
+  441796 -rwxr-xr-x     0      0   3866624 23-May-2016 13:48 DSC00009.JPG
+  441826 -rwxr-xr-x     0      0   7045120 23-May-2016 13:51 DSC00010.JPG
+  441880 -rwxr-xr-x     0      0   7536640 23-May-2016 13:52 DSC00011.JPG
+  441938 -rwxr-xr-x     0      0   8126464 23-May-2016 13:52 DSC00012.JPG
+  442079 -rwxr-xr-x     0      0   7077888 23-May-2016 13:53 DSC00014.JPG
+  442133 -rwxr-xr-x     0      0   6946816 23-May-2016 13:54 DSC00015.JPG
+  442186 -rwxr-xr-x     0      0   7438336 23-May-2016 13:54 DSC00016.JPG
+  442316 -rwxr-xr-x     0      0   6946816 23-May-2016 13:55 DSC00018.JPG
+  442369 -rwxr-xr-x     0      0   7110656 23-May-2016 13:55 DSC00019.JPG
+  442579 -rwxr-xr-x     0      0   6815744 23-May-2016 13:56 DSC00022.JPG
+  442631 -rwxr-xr-x     0      0   8159232 23-May-2016 13:56 DSC00023.JPG
+  442694 -rwxr-xr-x     0      0   5079040 23-May-2016 13:57 DSC00024.JPG
+  442733 -rwxr-xr-x     0      0   5210112 23-May-2016 13:57 DSC00025.JPG
+  442773 -rwxr-xr-x     0      0   5636096 23-May-2016 13:57 DSC00026.JPG
+  442816 -rwxr-xr-x     0      0   7274496 23-May-2016 13:58 DSC00027.JPG
+  442872 -rwxr-xr-x     0      0   7208960 23-May-2016 13:58 DSC00028.JPG
+  442927 -rwxr-xr-x     0      0   8290304 23-May-2016 13:59 DSC00029.JPG
+  442991 -rwxr-xr-x     0      0   5701632 23-May-2016 14:00 DSC00030.JPG
+  443423 -rwxr-xr-x     0      0   5505024 23-May-2016 14:36 DSC00033.JPG
+  443465 -rwxr-xr-x     0      0   4718592 23-May-2016 14:36 DSC00034.JPG
+  443501 -rwxr-xr-x     0      0   5931008 23-May-2016 14:36 DSC00035.JPG
+  443547 -rwxr-xr-x     0      0   5308416 23-May-2016 14:37 DSC00036.JPG
+  443588 -rwxr-xr-x     0      0   5832704 23-May-2016 15:00 DSC00037.JPG
+  443633 -rwxr-xr-x     0      0   6881280 23-May-2016 15:00 DSC00038.JPG
+  444291 -rwxr-xr-x     0      0   8224768 23-May-2016 16:56 DSC00041.JPG
+  444354 -rwxr-xr-x     0      0   8617984 23-May-2016 16:56 DSC00042.JPG
+  444420 -rwxr-xr-x     0      0   8749056 23-May-2016 16:56 DSC00043.JPG
+  444487 -rwxr-xr-x     0      0   7995392 23-May-2016 16:56 DSC00044.JPG
+  444548 -rwxr-xr-x     0      0   8224768 23-May-2016 16:56 DSC00045.JPG
+  444611 -rwxr-xr-x     0      0   7929856 23-May-2016 16:56 DSC00046.JPG
+  444672 -rwxr-xr-x     0      0   8454144 23-May-2016 16:57 DSC00047.JPG
+  444737 -rwxr-xr-x     0      0   8486912 23-May-2016 16:57 DSC00048.JPG
+  444802 -rwxr-xr-x     0      0   8552448 23-May-2016 16:57 DSC00049.JPG
+  444868 -rwxr-xr-x     0      0   8355840 23-May-2016 16:58 DSC00050.JPG
+  444932 -rwxr-xr-x     0      0   7733248 23-May-2016 16:58 DSC00051.JPG
+  445387 -rwxr-xr-x     0      0   7208960 23-May-2016 16:59 DSC00053.JPG
+  445442 -rwxr-xr-x     0      0   8093696 23-May-2016 16:59 DSC00054.JPG
+  445504 -rwxr-xr-x     0      0   8224768 23-May-2016 16:59 DSC00055.JPG
+  445567 -rwxr-xr-x     0      0   7700480 23-May-2016 16:59 DSC00056.JPG
+  445626 -rwxr-xr-x     0      0   8060928 23-May-2016 16:59 DSC00057.JPG
+  445688 -rwxr-xr-x     0      0   8519680 23-May-2016 16:59 DSC00058.JPG
+  445753 -rwxr-xr-x     0      0   8224768 23-May-2016 17:01 DSC00059.JPG
+  445816 -rwxr-xr-x     0      0   4521984 23-May-2016 17:01 DSC00060.JPG
+  445851 -rwxr-xr-x     0      0   4325376 23-May-2016 17:01 DSC00061.JPG
+  445884 -rwxr-xr-x     0      0   7929856 23-May-2016 17:02 DSC00062.JPG
+  445945 -rwxr-xr-x     0      0   6029312 23-May-2016 17:11 DSC00063.JPG
+  445991 -rwxr-xr-x     0      0   6422528 23-May-2016 17:12 DSC00064.JPG
+  446040 -rwxr-xr-x     0      0   6258688 23-May-2016 17:12 DSC00065.JPG
+  446241 -rwxr-xr-x     0      0   6750208 23-May-2016 17:53 DSC00067.JPG
+  446293 -rwxr-xr-x     0      0   8355840 23-May-2016 18:37 DSC00068.JPG
+  446357 -rwxr-xr-x     0      0   9928704 23-May-2016 18:38 DSC00069.JPG
+exfat_copy dst=/home/fukjo/Documents/DCIM/101MSDCF/DSC00068.JPG first_cluster=446293 (114283264) size=8355840
+exfat_copy dst=/home/fukjo/Documents/DCIM/101MSDCF/DSC00069.JPG first_cluster=446357 (114299648) size=9928704
+exfat_copy dst=/home/fukjo/Documents/DCIM/101MSDCF/DSC00067.JPG first_cluster=446241 (114269952) size=6750208
+Directory /DCIM
+   10823 drwxr-xr-x     0      0    393216  1-May-2016 12:29 100MSDCF
+  441360 drwxr-xr-x     0      0    131072 23-May-2016 13:41 101MSDCF
+Directory /
+       5 -rwxr-xr-x     0      0 1073741824 14-Jan-2016 17:25 1.fff
+    8197 -rwxr-xr-x     0      0 270660608 14-Jan-2016 17:27 2.fff
+   10262 dr-xr-xr-x     0      0    131072  6-Feb-2016 16:44 AVF_INFO
+   10814 drwxr-xr-x     0      0    131072  6-Feb-2016 16:44 PRIVATE
+   10822 drwxr-xr-x     0      0    131072  6-Feb-2016 16:45 DCIM
+   10824 drwxr-xr-x     0      0    131072  6-Feb-2016 16:45 MP_ROOT
+  278834 drwxr-xr-x     0      0    131072 27-Mar-2016 17:46 System Volume Information
+  278836 drwxr-xr-x     0      0    131072 27-Mar-2016 19:14 wycieczka 1
+
+dir_partition inode=10824
+   * HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+Directory /MP_ROOT
+   10825 drwxr-xr-x     0      0    131072  6-Feb-2016 16:45 100ANV01
+  441361 drwxr-xr-x     0      0    131072 23-May-2016 13:41 101ANV01
+
+dir_partition inode=441361
+   * HPFS - NTFS            512   0  1 1948991   3 16  124702720
+     exFAT, 63 GB / 59 GiB
+Directory /MP_ROOT/101ANV01
+  442000 -rwxr-xr-x     0      0  10211552 23-May-2016 13:53 MAH00013.MP4
+  442078 -rwxr-xr-x     0      0      7490 23-May-2016 13:53 MAH00013.THM
+  442243 -rwxr-xr-x     0      0   9372975 23-May-2016 13:55 MAH00017.MP4
+  442315 -rwxr-xr-x     0      0      7956 23-May-2016 13:55 MAH00017.THM
+  442424 -rwxr-xr-x     0      0  14735812 23-May-2016 13:55 MAH00020.MP4
+  442537 -rwxr-xr-x     0      0      8175 23-May-2016 13:55 MAH00020.THM
+  442538 -rwxr-xr-x     0      0   5140837 23-May-2016 13:56 MAH00021.MP4
+  442578 -rwxr-xr-x     0      0      7999 23-May-2016 13:55 MAH00021.THM
+  443035 -rwxr-xr-x     0      0  11104234 23-May-2016 14:32 MAH00031.MP4
+  443120 -rwxr-xr-x     0      0      9454 23-May-2016 14:32 MAH00031.THM
+  443121 -rwxr-xr-x     0      0  39393549 23-May-2016 14:33 MAH00032.MP4
+  443422 -rwxr-xr-x     0      0      8761 23-May-2016 14:33 MAH00032.THM
+  443686 -rwxr-xr-x     0      0  51113741 23-May-2016 15:25 MAH00039.MP4
+  444076 -rwxr-xr-x     0      0      7956 23-May-2016 15:25 MAH00039.THM
+  444077 -rwxr-xr-x     0      0  27815780 23-May-2016 15:26 MAH00040.MP4
+  444290 -rwxr-xr-x     0      0      7621 23-May-2016 15:25 MAH00040.THM
+  444991 -rwxr-xr-x     0      0  51701337 23-May-2016 16:58 MAH00052.MP4
+  445386 -rwxr-xr-x     0      0      7471 23-May-2016 16:58 MAH00052.THM
+  446088 -rwxr-xr-x     0      0  19846191 23-May-2016 17:12 MAH00066.MP4
+  446240 -rwxr-xr-x     0      0      6300 23-May-2016 17:12 MAH00066.THM
+  446433 -rwxr-xr-x     0      0  32031054 23-May-2016 18:38 MAH00070.MP4
+  446678 -rwxr-xr-x     0      0      8248 23-May-2016 18:38 MAH00070.THM
+exfat_copy dst=/home/fukjo/Documents/MP_ROOT/101ANV01/MAH00070.MP4 first_cluster=446433 (114319104) size=32031054
+Directory /MP_ROOT
+   10825 drwxr-xr-x     0      0    131072  6-Feb-2016 16:45 100ANV01
+  441361 drwxr-xr-x     0      0    131072 23-May-2016 13:41 101ANV01
+Directory /
+       5 -rwxr-xr-x     0      0 1073741824 14-Jan-2016 17:25 1.fff
+    8197 -rwxr-xr-x     0      0 270660608 14-Jan-2016 17:27 2.fff
+   10262 dr-xr-xr-x     0      0    131072  6-Feb-2016 16:44 AVF_INFO
+   10814 drwxr-xr-x     0      0    131072  6-Feb-2016 16:44 PRIVATE
+   10822 drwxr-xr-x     0      0    131072  6-Feb-2016 16:45 DCIM
+   10824 drwxr-xr-x     0      0    131072  6-Feb-2016 16:45 MP_ROOT
+  278834 drwxr-xr-x     0      0    131072 27-Mar-2016 17:46 System Volume Information
+  278836 drwxr-xr-x     0      0    131072 27-Mar-2016 19:14 wycieczka 1
+
+interface_write()
+ 1 * HPFS - NTFS            512   0  1 1948991   3 16  124702720
+simulate write!
+
+write_mbr_i386: starting...
+write_all_log_i386: starting...
+No extended partition
+
+TestDisk exited normally.
