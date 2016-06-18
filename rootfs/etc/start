@@ -5,4 +5,17 @@
 /bin/mount -t proc proc /proc
 /bin/mount -t sysfs sysfs /sys
 
+# enable the board leds
+#/bin/echo 109 > /sys/class/gpio/export
+#/bin/echo 110 > /sys/class/gpio/export
+
+# set the board leds as output
+#/bin/echo high > /sys/class/gpio/gpio109/direction
+#/bin/echo high > /sys/class/gpio/gpio110/direction
+
+# clear the board leds
+#/bin/echo 0 > /sys/class/gpio/gpio109/value
+#/bin/echo 0 > /sys/class/gpio/gpio110/value
+
+
 exit 0
