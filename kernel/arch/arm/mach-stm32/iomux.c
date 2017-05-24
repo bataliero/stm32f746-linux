@@ -558,13 +558,14 @@ uartdone:
 		stm32f2_gpio_config(&gpio_dsc, STM32F2_GPIO_ROLE_I2C2);
 #endif
 #if defined(CONFIG_STM32_I2C3)
-		gpio_dsc.port = 0;	/* SCL: PA8*/
-		gpio_dsc.pin  = 8;
+		gpio_dsc.port = 7;	
+		gpio_dsc.pin  = 7;
 		stm32f2_gpio_config(&gpio_dsc, STM32F2_GPIO_ROLE_I2C3);
 
-		gpio_dsc.port = 2;	/* SDA: PC9*/
-		gpio_dsc.pin  = 9;
-		stm32f2_gpio_config(&gpio_dsc, STM32F2_GPIO_ROLE_I2C3);
+		gpio_dsc.port = 7;	
+		gpio_dsc.pin  = 8;
+		stm32f2_gpio_config(&gpio_dsc, STM32F2_GPIO_ROLE_I2C3); 
+
 #endif
 #if defined(CONFIG_STM32_I2C4)
 		gpio_dsc.port = 7;	/* SCL: PH11*/
